@@ -60,35 +60,6 @@
     });
   }
 
-  /* ---------- Toast helper ---------- */
-  var toast = document.getElementById("toast");
-  var toastTimer = null;
-
-  function showToast(message) {
-    if (!toast) return;
-    toast.textContent = message;
-    toast.hidden = false;
-    requestAnimationFrame(function () {
-      toast.classList.add("is-visible");
-    });
-    if (toastTimer) clearTimeout(toastTimer);
-    toastTimer = setTimeout(function () {
-      toast.classList.remove("is-visible");
-      setTimeout(function () {
-        toast.hidden = true;
-      }, 250);
-    }, 2600);
-  }
-
-  /* ---------- Social links without live accounts ---------- */
-  document.querySelectorAll(".js-social-coming").forEach(function (link) {
-    link.addEventListener("click", function (e) {
-      e.preventDefault();
-      var label = link.getAttribute("data-label") || "Social";
-      showToast(label + " — official account coming soon");
-    });
-  });
-
   /* ---------- Render news list from js/news.js ---------- */
   var newsList = document.getElementById("news-list");
   var newsData = window.OFFCTRL_NEWS || [];
