@@ -3,8 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050505">
   <title>OFFCTRL AI | Out Control AI — Hackathon Attack-Defense Team</title>
   <meta name="description" content="OFFCTRL AI is a hackathon attack-defense team built on offensive and defensive security. Read our latest updates and apply to join the team.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="OFFCTRL AI">
+  <meta property="og:title" content="OFFCTRL AI | Out Control AI — Hackathon Attack-Defense Team">
+  <meta property="og:description" content="A hackathon attack-defense team built around offensive and defensive security. Read our latest updates and apply to join the team.">
+  <meta property="og:url" content="https://offctrl.ai/">
+  <meta property="og:image" content="https://offctrl.ai/assets/img/hero.jpg">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="assets/img/logo.png" type="image/png">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -15,11 +23,14 @@
     <a href="#top" class="site-header__brand" aria-label="OFFCTRL AI home">
       <img src="assets/svg/offctrl-logo-main.svg" alt="OFFCTRL AI">
     </a>
-    <nav class="site-nav" aria-label="Main navigation">
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
       <a href="#news" class="site-nav__link">News</a>
       <a href="#join" class="site-nav__link">Join us</a>
       <a href="#join" class="site-nav__cta">Apply now</a>
     </nav>
+    <button class="site-nav__toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
   </header>
 
   <main id="main-content">
@@ -101,19 +112,24 @@
       <h2 class="section-title" id="follow-title">Follow us</h2>
       <p class="follow__lead">We're building OpenControl — our own brand front — one project at a time. Follow our channels for writeups, streams and battle updates.</p>
       <ul class="social-list">
-        <li><a href="#" aria-label="GitHub" title="GitHub"><img src="assets/svg/icon-github.svg" alt="GitHub"></a></li>
-        <li><a href="#" aria-label="X (Twitter)" title="X (Twitter)"><img src="assets/svg/icon-twitter.svg" alt="X (Twitter)"></a></li>
-        <li><a href="#" aria-label="YouTube" title="YouTube"><img src="assets/svg/icon-youtube.svg" alt="YouTube"></a></li>
-        <li><a href="#" aria-label="Instagram" title="Instagram"><img src="assets/svg/icon-instagram.svg" alt="Instagram"></a></li>
+        <li><a href="https://github.com/SingletonYe" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><img src="assets/svg/icon-github.svg" alt="GitHub"></a></li>
+        <li><a href="#" class="js-social-coming" data-label="X (Twitter)" aria-label="X (Twitter)" title="X (Twitter)"><img src="assets/svg/icon-twitter.svg" alt="X (Twitter)"></a></li>
+        <li><a href="#" class="js-social-coming" data-label="YouTube" aria-label="YouTube" title="YouTube"><img src="assets/svg/icon-youtube.svg" alt="YouTube"></a></li>
+        <li><a href="#" class="js-social-coming" data-label="Instagram" aria-label="Instagram" title="Instagram"><img src="assets/svg/icon-instagram.svg" alt="Instagram"></a></li>
       </ul>
+      <div class="follow__actions">
+        <a href="mailto:join@offctrl.ai" class="btn btn--outline">Contact the team</a>
+      </div>
     </div>
   </section>
 
   <!-- ======= Footer ======= -->
   <footer class="site-footer">
-    <img src="assets/svg/offctrl-logo-white.svg" alt="OFFCTRL AI">
+    <a href="#top" aria-label="Back to top"><img src="assets/svg/offctrl-logo-white.svg" alt="OFFCTRL AI"></a>
     <p>© 2026 OFFCTRL AI — Out Control AI. Built by hackers, for hackers.</p>
   </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 
   <script src="js/news.js"></script>
   <script src="js/main.js"></script>
