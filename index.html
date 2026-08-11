@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OFFCTRL AI | Out Control AI — Hackathon Attack-Defense Team</title>
+  <meta name="description" content="OFFCTRL AI is a hackathon attack-defense team built on offensive and defensive security. Read our latest updates and apply to join the team.">
+  <link rel="icon" href="assets/img/logo.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-offctrl">
+
+  <!-- ======= Header ======= -->
+  <header class="site-header" id="site-header">
+    <a href="#top" class="site-header__brand" aria-label="OFFCTRL AI home">
+      <img src="assets/svg/offctrl-logo-main.svg" alt="OFFCTRL AI">
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#news" class="site-nav__link">News</a>
+      <a href="#join" class="site-nav__link">Join us</a>
+      <a href="#join" class="site-nav__cta">Apply now</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ======= Hero ======= -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero__bg" style="background-image:url('assets/img/hero.jpg')"></div>
+      <div class="hero__content">
+        <p class="hero__eyebrow">When control is lost, we take it back.</p>
+        <h1 class="hero__title" id="hero-title">OFFCTRL AI <span>REMASTERED</span></h1>
+        <p class="hero__intro">A hackathon attack-defense team built around offensive and defensive security. From dexterous hands and brain-computer interfaces to cloud and AI agents — we go full-stack, on macOS, Windows and Linux.</p>
+        <div class="hero__actions">
+          <a href="#join" class="btn btn--gold">Apply to join</a>
+          <a href="#news" class="btn btn--outline">See latest updates</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= News ======= -->
+    <section class="news" id="news" aria-labelledby="news-title">
+      <div class="section-head">
+        <p class="section-eyebrow">Field reports</p>
+        <h2 class="section-title" id="news-title">News &amp; updates</h2>
+      </div>
+      <div class="news-list" id="news-list">
+        <!-- News items are rendered from js/news.js -->
+      </div>
+    </section>
+
+    <!-- ======= Join the team ======= -->
+    <section class="join" id="join" aria-labelledby="join-title">
+      <div class="section-head">
+        <p class="section-eyebrow">Recruiting</p>
+        <h2 class="section-title" id="join-title">Join the team</h2>
+        <p class="join__lead">We're looking for hackers, builders and defenders — offense, defense, hardware, software, AI. Tell us who you are and we'll get back to you.</p>
+      </div>
+      <form class="join-form" id="join-form" novalidate>
+        <div class="join-form__grid">
+          <div class="form-field">
+            <label for="join-name">Name</label>
+            <input type="text" id="join-name" name="name" required autocomplete="name" placeholder="Your name">
+          </div>
+          <div class="form-field">
+            <label for="join-email">Email</label>
+            <input type="email" id="join-email" name="email" required autocomplete="email" placeholder="you@example.com">
+          </div>
+          <div class="form-field">
+            <label for="join-role">Track</label>
+            <select id="join-role" name="role">
+              <option value="Offense (Red Team)">Offense (Red Team)</option>
+              <option value="Defense (Blue Team)">Defense (Blue Team)</option>
+              <option value="Hardware">Hardware</option>
+              <option value="Software">Software</option>
+              <option value="AI / ML">AI / ML</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="join-github">GitHub / Portfolio <span class="form-optional">(optional)</span></label>
+            <input type="url" id="join-github" name="github" placeholder="https://github.com/you">
+          </div>
+        </div>
+        <div class="form-field">
+          <label for="join-message">Tell us about yourself <span class="form-optional">(optional)</span></label>
+          <textarea id="join-message" name="message" rows="4" placeholder="CTF history, projects, hardware builds, what you want to work on..."></textarea>
+        </div>
+        <div class="join-form__footer">
+          <p class="join-form__note" id="join-note" role="status" hidden></p>
+          <button type="submit" class="btn btn--gold btn--lg">Submit application</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <!-- ======= Follow us ======= -->
+  <section class="follow" id="follow" aria-labelledby="follow-title">
+    <div class="follow__inner">
+      <p class="section-eyebrow">Community</p>
+      <h2 class="section-title" id="follow-title">Follow us</h2>
+      <p class="follow__lead">We're building OpenControl — our own brand front — one project at a time. Follow our channels for writeups, streams and battle updates.</p>
+      <ul class="social-list">
+        <li><a href="#" aria-label="GitHub" title="GitHub"><img src="assets/svg/icon-github.svg" alt="GitHub"></a></li>
+        <li><a href="#" aria-label="X (Twitter)" title="X (Twitter)"><img src="assets/svg/icon-twitter.svg" alt="X (Twitter)"></a></li>
+        <li><a href="#" aria-label="YouTube" title="YouTube"><img src="assets/svg/icon-youtube.svg" alt="YouTube"></a></li>
+        <li><a href="#" aria-label="Instagram" title="Instagram"><img src="assets/svg/icon-instagram.svg" alt="Instagram"></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ======= Footer ======= -->
+  <footer class="site-footer">
+    <img src="assets/svg/offctrl-logo-white.svg" alt="OFFCTRL AI">
+    <p>© 2026 OFFCTRL AI — Out Control AI. Built by hackers, for hackers.</p>
+  </footer>
+
+  <script src="js/news.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

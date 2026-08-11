@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logoFacebook" viewBox="0 0 27 27" width="27" height="27" class="footer__socials-icon footer__socials-icon--facebook">
+  <title id="logoFacebook">Logo Facebook</title>
+  <path fill="#ffffff"  d="M27 13.5825C27 6.08109 20.9558 0 13.5 0C6.04415 0 0 6.08109 0 13.5825C0 20.3618 4.93673 25.981 11.3906 27V17.5087H7.96289V13.5825H11.3906V10.5901C11.3906 7.18599 13.4061 5.30567 16.4898 5.30567C17.9663 5.30567 19.5117 5.57095 19.5117 5.57095V8.91352H17.8095C16.1325 8.91352 15.6094 9.96059 15.6094 11.0358V13.5825H19.3535L18.755 17.5087H15.6094V27C22.0633 25.981 27 20.3618 27 13.5825Z"/>
+</svg>
