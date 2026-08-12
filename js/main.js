@@ -173,7 +173,7 @@
   /* ---------- Join application form ---------- */
   var form = document.getElementById("join-form");
   var note = document.getElementById("join-note");
-  var JOIN_EMAIL = "peiqing6888@gmail.com";
+  var JOIN_EMAIL = "98@offctrl.ai";
 
   if (form) {
     form.addEventListener("submit", function (event) {
