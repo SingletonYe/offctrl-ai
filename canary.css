@@ -30,3 +30,21 @@ a {
     font-size: 7.5pt;
     text-decoration:none;
 }
+
+@media (max-width: 720px) {
+    html, body {
+        overflow-x: hidden;
+    }
+    table, .outer {
+        width: 100%;
+        max-width: 100%;
+        table-layout: fixed;
+    }
+    pre {
+        max-width: 100%;
+        overflow-x: auto;
+    }
+    #canary {
+        display: none;
+    }
+}

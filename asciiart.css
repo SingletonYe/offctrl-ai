@@ -15,6 +15,22 @@ BODY,PRE {
   /*font-weight: normal; */
   /*font-family: courier new;*/
 }
+
+@media (max-width: 720px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  table {
+    width: 100%;
+    max-width: 100%;
+    table-layout: fixed;
+  }
+  pre {
+    max-width: 100%;
+    overflow-x: auto;
+    line-height: 4px;
+  }
+}
 #b { color: #0C0304 }
 #c { color: #160404 }
 #d { color: #241004 }

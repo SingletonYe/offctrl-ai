@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
@@ -128,6 +129,35 @@
         }
        .container {
           padding: 1%;
+        }
+        @media (max-width: 720px) {
+          html, body {
+            overflow-x: hidden;
+          }
+          #main {
+            margin: 0;
+          }
+          table {
+            width: 100%;
+            max-width: 100%;
+            table-layout: fixed;
+          }
+          pre {
+            max-width: 100%;
+            overflow-x: auto;
+          }
+          #whoo {
+            white-space: normal;
+          }
+          #whoo a {
+            font-size: 10px;
+          }
+          table table pre {
+            font-size: 6.5px;
+          }
+          .cute {
+            display: none;
+          }
         }
         </style>
     </head>
