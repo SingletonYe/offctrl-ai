@@ -1673,7 +1673,10 @@ var BrowserPonies = (function () {
 					// IE 9 supports event.buttons and handles event.button like the w3c says.
 					// IE <9 does not support event.buttons but sets event.button to the value
 					// event.buttons should have (which is not what the w3c says).
-					if ('buttons' in event ? event.buttons & 1 : (IE ? event.button & 1 : event.button === 0)) {
+					// Touch-to-mouse shims (see createImage) synthesize mouse events whose
+					// buttons property stays 0, so also accept button === 0 with buttons === 0.
+					if (('buttons' in event ? event.buttons & 1 : (IE ? event.button & 1 : event.button === 0)) ||
+					    (event.buttons === 0 && event.button === 0)) {
 						dragged = this;
 						this.mouseover = true;
 						// timer === null means paused/not running
