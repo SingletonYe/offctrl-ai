@@ -1,136 +1,273 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#050505">
-  <title>OFFCTRL AI | Out Control AI — Hackathon Attack-Defense Team</title>
-  <meta name="description" content="OFFCTRL AI is a hackathon attack-defense team built on offensive and defensive security. Read our latest updates and apply to join the team.">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="OFFCTRL AI">
-  <meta property="og:title" content="OFFCTRL AI | Out Control AI — Hackathon Attack-Defense Team">
-  <meta property="og:description" content="A hackathon attack-defense team built around offensive and defensive security. Read our latest updates and apply to join the team.">
-  <meta property="og:url" content="https://offctrl.ai/">
-  <meta property="og:image" content="https://offctrl.ai/assets/img/hero.jpg">
-  <meta name="twitter:card" content="summary_large_image">
-  <link rel="icon" href="assets/img/logo.png" type="image/png">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body class="page-offctrl">
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta lang="en">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Patterns in the Void">
+    <meta name="author" content="Isis Agora Lovecruft">
+    <meta name="keywords"
+          content="blog,repo,anarchism,feminism,physics,hacking,cryptography,anonymity,privacy,security,travel">
+    <title>singleton: offctrl ai</title>
+    <script type="text/javascript"
+            src="Browser-Ponies/basecfg.js"
+            id="browser-ponies-config">
+    </script>
+    <script type="text/javascript"
+            src="Browser-Ponies/browserponies.js"
+            id="browser-ponies-script">
+    </script>
+    <script type="text/javascript">
+      /* <![CDATA[ */
+          (function (cfg) {
+            cfg.baseurl = new URL(cfg.baseurl, window.location.href).href;
+            BrowserPonies.setBaseUrl(cfg.baseurl);
+            BrowserPonies.loadConfig(BrowserPoniesBaseConfig);
+            BrowserPonies.loadConfig(cfg);
+          })
+          ({"baseurl":"Browser-Ponies/",
+            "fadeDuration":100,
+            "volume": 1,
+            "fps": 24,
+            "speed": 3,
+            "audioEnabled": false,
+            "showFps": false,
+            "showLoadProgress": true,
+            "speakProbability": 0.0,
+            "dontSpeak": true,
+            "spawn": {
+              "fluttershy": 1,
+              "pinkie pie": 0,
+              "rainbow dash": 1,
+              "rarity": 1,
+              "twilight sparkle": 1,
+              "zapp": 1,
+              "princess luna (season 1)": 1,
+              "queen chrysalis": 1,
+              "raven": 1,
+              "changeling": 1,
+              "cloudchaser": 0,
+              "blossomforth": 0,
+            },
+            "autostart": true
+           }
+          );
+          /* ]]> */
 
-  <!-- ======= Header ======= -->
-  <header class="site-header" id="site-header">
-    <a href="#top" class="site-header__brand" aria-label="OFFCTRL AI home">
-      <img src="assets/svg/offctrl-logo-main.svg" alt="OFFCTRL AI">
-    </a>
-    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
-      <a href="#news" class="site-nav__link">News</a>
-      <a href="#join" class="site-nav__link">Join us</a>
-      <a href="#join" class="site-nav__cta">Apply now</a>
-    </nav>
-    <button class="site-nav__toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
-      <span></span><span></span><span></span>
-    </button>
-  </header>
+      function togglePonies() {
+        var main = document.getElementById('main');
+        var browserPonies = document.getElementById('browser-ponies');
+        if (browserPonies) {
+          if (browserPonies.style.visibility === '') {
+            browserPonies.style.visibility = 'hidden';
+            main.style.zIndex = '100000000';
+          } else {
+            browserPonies.style.visibility = '';
+            main.style.zIndex = '';
+          }
+        }
+      };
 
-  <main id="main-content">
+      //window.onload = function(e) {
+      //  togglePonies();
+      //}
+    </script>
+        <!--<base href="https://blog.patternsinthevoid.net/" target="_blank">-->
+        <style type="text/css">
+        body {
+          font-size: 9pt;
+          color: #c0c0c0;
+          background-color: #080808;
+        }
+        a, a.visited {
+          font-family: serif;
+          font-size: 12pt;
+          color: #606060;
+          text-decoration:none;
+        }
+        pre {
+          text-align: left;
+          font-size: 7.5pt;
+        }
+        table {
+          width: 300;
+          border: 0;
+          margin: auto;
+          padding: 0;
+          align: center;
+        }
+        #whoo {
+          color: #606060;
+          margin: auto;
+          align: center;
+          text-align: center;
+          text-transform: uppercase;
+        }
+        .cute {
+          margin: auto;
+          align: right;
+          position: absolute;
+          top: 2%;
+          text-align: left;
+        }
+        #canary, #canary>a, #canary~pre {
+          color: #ccbb25;
+          right: 14%;
+          text-align: left;
+          font-size: 7.5pt;
+        }
+        #pwnie, #pwnie>a, #pwnie~pre {
+          color: #8888ff;
+          right: 2%;
+          font-size: 5pt;
+        }
+        #main {
+          position: relative;
+          background: #080808;
+          margin: -10px;
+        }
+       .container {
+          padding: 1%;
+        }
+        </style>
+    </head>
+    <body>
+      <div id="main">
+        <div class="container">
+          <table>
+            <thead>
+              <tr>
+                <td><pre>                                           ,dPYb,            I8
+                                           IP'`Yb            I8
+            gg                             I8  8I         88888888
+            ""                             I8  8'            I8
+   ,g,      gg    ,ggg,,ggg,     ,gggg,gg  I8 dP   ,ggg,     I8      ,ggggg,     ,ggg,,ggg,
+  ,8'8,     88   ,8" "8P" "8,   dP"  "Y8I  I8dP   i8" "8i    I8     dP"  "Y8ggg ,8" "8P" "8,
+ ,8'  Yb    88   I8   8I   8I  i8'    ,8I  I8P    I8, ,8I   ,I8,   i8'    ,8I   I8   8I   8I
+,8'_   8) _,88,_,dP   8I   Yb,,d8,   ,d8I ,d8b,_  `YbadP'  ,d88b, ,d8,   ,d8'  ,dP   8I   Yb,
+P' "YY8P8P8P""Y88P'   8I   `Y8P"Y8888P"8888P'"Y88888P"Y88888P""Y88P"Y8888P"    8P'   8I   `Y8
+                                     ,d8I'
+                                   ,dP'8I
+                                  ,8"  8I
+                                  I8   8I
+                                  `8, ,8I
+                                   `Y8P"
 
-    <!-- ======= Hero ======= -->
-    <section class="hero" id="top" aria-labelledby="hero-title">
-      <div class="hero__bg" style="background-image:url('assets/img/hero.jpg')"></div>
-      <div class="hero__content">
-        <p class="hero__eyebrow">When control is lost, we take it back.</p>
-        <h1 class="hero__title" id="hero-title">OFFCTRL AI <span>REMASTERED</span></h1>
-        <p class="hero__intro">A hackathon attack-defense team built around offensive and defensive security. From dexterous hands and brain-computer interfaces to cloud and AI agents — we go full-stack, on macOS, Windows and Linux.</p>
-        <div class="hero__actions">
-          <a href="#join" class="btn btn--gold">Apply to join</a>
-          <a href="#news" class="btn btn--outline">See latest updates</a>
-        </div>
-      </div>
-    </section>
+              ,dPYb,  ,dPYb,              I8               ,dPYb,
+              IP'`Yb  IP'`Yb              I8               IP'`Yb
+              I8  8I  I8  8I           88888888            I8  8I                  gg
+              I8  8'  I8  8'              I8               I8  8'                  ""
+   ,ggggg,    I8 dP   I8 dP     ,gggg,    I8     ,gggggg,  I8 dP        ,gggg,gg   gg
+  dP"  "Y8ggg I8dP    I8dP     dP"  "Yb   I8     dP""""8I  I8dP        dP"  "Y8I   88
+ i8'    ,8I   I8P     I8P     i8'        ,I8,   ,8'    8I  I8P        i8'    ,8I   88
+,d8,   ,d8'  ,d8b,_  ,d8b,_  ,d8,_    _ ,d88b, ,dP     Y8,,d8b,_     ,d8,   ,d8b,_,88,_
+P"Y8888P"    PI8"8888PI8"8888P""Y8888PP88P""Y888P      `Y88P'"Y88    P"Y8888P"`Y88P""Y8
+              I8 `8,  I8 `8,
+              I8  `8, I8  `8,
+              I8   8I I8   8I
+              I8   8I I8   8I
+              I8, ,8' I8, ,8'
+               "Y8P'   "Y8P'</pre></td>
+              </tr>
+            </thead>
+            <tr><td><pre id="whoo"><a>BLOG</a>  |  <a href="cv.pdf" title="">CV</a>  |  <a href="https://github.com/SingletonYe">CODE</a> | <a href="https://www.linkedin.com/in/singleton-ye-014370428/" title="">LINKEDIN</a> | <a href="https://x.com/offctrl_ai" title="">X</a> | <a href="https://www.instagram.com/offctrl_ai" title="">INS</a> | <a href="history.html">HISTORY</a></pre></td></tr>
+            <tr><td><table><tr><td><pre>    _______________________________________________________
+   |                                                       |
+   | i sorry. i no understand. y u no make total destroy?  |
+   |_______________________________________________________|
+    \
+     \                   .       .
+      \                 / `.   .' " 
+       \        .---.  <    > <    >  .---.
+                |    \  \ - ~ ~ - /  /    |
+    _____        ~-..-~             ~-..-~
+   |  <a href="𓊨𓏏𓏭𓆗.html" style="font-family:sans;font-size:9pt;">(A)</a>|   \~~~\.'                    `./~~~/
+  ---------   \__/                        \__/
+ .'  O    \     /               /       \  " 
+(_____,    `._.'               |         }  \/~~~/
+ `----.          /       }     |        /    \__/
+       `-.      |       /      |       /      `. ,~~|
+           ~-.__|      /_ - ~ ^|      /- _      `..-' _ 
+                |     /        |     /     ~-.     `-`_/,_
+                |_____|        |_____|         ~ - . _ _ _`>  </pre></td></tr></table></td></tr></table>
 
-    <!-- ======= News ======= -->
-    <section class="news" id="news" aria-labelledby="news-title">
-      <div class="section-head">
-        <p class="section-eyebrow">Field reports</p>
-        <h2 class="section-title" id="news-title">News &amp; updates</h2>
-      </div>
-      <div class="news-list" id="news-list">
-        <!-- News items are rendered from js/news.js -->
-      </div>
-    </section>
 
-    <!-- ======= Join the team ======= -->
-    <section class="join" id="join" aria-labelledby="join-title">
-      <div class="section-head">
-        <p class="section-eyebrow">Recruiting</p>
-        <h2 class="section-title" id="join-title">Join the team</h2>
-        <p class="join__lead">We're looking for hackers, builders and defenders — offense, defense, hardware, software, AI. Tell us who you are and we'll get back to you.</p>
-      </div>
-      <form class="join-form" id="join-form" novalidate>
-        <div class="join-form__grid">
-          <div class="form-field">
-            <label for="join-name">Name</label>
-            <input type="text" id="join-name" name="name" required autocomplete="name" placeholder="Your name">
-          </div>
-          <div class="form-field">
-            <label for="join-email">Email</label>
-            <input type="email" id="join-email" name="email" required autocomplete="email" placeholder="you@example.com">
-          </div>
-          <div class="form-field">
-            <label for="join-role">Track</label>
-            <select id="join-role" name="role">
-              <option value="Offense (Red Team)">Offense (Red Team)</option>
-              <option value="Defense (Blue Team)">Defense (Blue Team)</option>
-              <option value="Hardware">Hardware</option>
-              <option value="Software">Software</option>
-              <option value="AI / ML">AI / ML</option>
-              <option value="Other">Other</option>
-            </select>
-          </div>
-          <div class="form-field">
-            <label for="join-github">GitHub / Portfolio <span class="form-optional">(optional)</span></label>
-            <input type="url" id="join-github" name="github" placeholder="https://github.com/you">
-          </div>
-        </div>
-        <div class="form-field">
-          <label for="join-message">Tell us about yourself <span class="form-optional">(optional)</span></label>
-          <textarea id="join-message" name="message" rows="4" placeholder="CTF history, projects, hardware builds, what you want to work on..."></textarea>
-        </div>
-        <div class="join-form__footer">
-          <p class="join-form__note" id="join-note" role="status" hidden></p>
-          <button type="submit" class="btn btn--gold btn--lg">Submit application</button>
-        </div>
-      </form>
-    </section>
-  </main>
+    <div class="container" style="width: 80%;">
+      <div class="cute" id="pwnie">
+        <a href="javascript:togglePonies()">
+<pre>
+\
+ \ji
+ /.(((
+(,/&quot;(((__,--. /{{
+    \  ) _( /{ }\}
+    !|| &quot; :||   }{
+    !||   :||
+    &#39;&#39;&#39;   &#39;&#39;&#39;
+</pre></a></div></div>
+        <div class="container" style="width: 80%;">
+            <div class="cute" id="canary">
+                <a href="canary.html">
+<pre>
 
-  <!-- ======= Follow us ======= -->
-  <section class="follow" id="follow" aria-labelledby="follow-title">
-    <div class="follow__inner">
-      <p class="section-eyebrow">Community</p>
-      <h2 class="section-title" id="follow-title">Follow us</h2>
-      <p class="follow__lead">We're building OpenControl — our own brand front — one project at a time. Follow our channels for writeups, streams and battle updates.</p>
-      <ul class="social-list">
-        <li><a href="https://github.com/SingletonYe" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><img src="assets/svg/icon-github.svg" alt="GitHub"></a></li>
-        <li><a href="https://x.com/offctrl_ai" target="_blank" rel="noopener" aria-label="X (Twitter)" title="X (Twitter)"><img src="assets/svg/icon-twitter.svg" alt="X (Twitter)"></a></li>
-        <li><a href="https://www.youtube.com/@offctrl_ai" target="_blank" rel="noopener" aria-label="YouTube" title="YouTube"><img src="assets/svg/icon-youtube.svg" alt="YouTube"></a></li>
-        <li><a href="https://www.instagram.com/offctrl_ai" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram"><img src="assets/svg/icon-instagram.svg" alt="Instagram"></a></li>
-        <li><a href="https://www.linkedin.com/in/singleton-ye-014370428/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><img src="assets/svg/icon-linkedin.svg" alt="LinkedIn"></a></li>
-      </ul>
-      <div class="follow__actions">
-        <a href="mailto:98@offctrl.ai" class="btn btn--outline">Contact the team</a>
+
+
+    __
+   <- )
+   /( \
+   \_\_>
+    &quot; &quot;</pre></a></div></div>
       </div>
     </div>
-  </section>
-
-  <!-- ======= Footer ======= -->
-  <footer class="site-footer">
-    <a href="#top" aria-label="Back to top"><img src="assets/svg/offctrl-logo-white.svg" alt="OFFCTRL AI"></a>
-    <p>© 2026 OFFCTRL AI — Out Control AI. Built by hackers, for hackers.</p>
-  </footer>
-
-  <script src="js/news.js"></script>
-  <script src="js/main.js"></script>
-</body>
+  </body>
 </html>
+<!--
+    "The great are only great because we are on our knees. Let us rise!"
+        -Pierre Joseph Proudhon
+
+    "I tell you frankly and openly, I am for force. I have already told Captain Schaack, "if they
+use cannons against us, we shall use dynamite against them." I repeat that I am the enemy of the
+"order" of today, and I repeat that, with all my powers, so long as breath remains in me, I shall
+combat it. I declare again, frankly and openly, that I am in favor of using force. I have told
+Captain Schaack, and I stand by it, "if you cannonade us, we shall dynamite you." You laugh! Perhaps
+you think, "you'll throw no more bombs"; but let me assure you I die happy on the gallows, so confident
+am I that the hundreds and thousands to whom I have spoken will remember my words; and when you
+shall have hanged us, then - mark my words - they will do the bombthrowing! In this hope do I say to
+you: I despise you. I despise your order, your laws, your force-propped authority. Hang me for it!"
+        -Louis Lingg, Haymarket Martyr, after being sentenced to death
+
+    "Law never made man a whit more just; and by means of their respect for it, even the well disposed
+are daily made agents of injustice."
+        -Henry David Thoreau
+
+    "If I can't dance I don't want to be part of your revolution."
+        -Emma Goldman
+
+    "The State is said by some to be a necessary evil; it must be made unnecessary."
+        -Benjamin R. Tucker
+
+    "When the people are being beaten with a stick, they are not much happier if it is
+called 'The People's Stick.'"
+        -Mikhail Alexandrovich Bakunin
+
+    "No theory, no ready-made system, no book that has ever been written will save the world.
+I cleave to no system. I am a true seeker."
+        -Mikhail Alexandrovich Bakunin
+
+    "It is better to die on your feet than to live on your knees."
+        -Emiliano Zapata
+
+    "You can't fight City Hall, but you can goddamn sure blow it up."
+        -George Carlin
+
+    "The state calls its own violence law, but that of the individual, crime."
+        -Max Stirner
+
+    "People demand freedom of speech as a compensation for the freedom of
+thought which they seldom use."
+        -Soren Kierkegaard
+
+    "Fifty-one percent of a nation can establish a totalitarian regime,
+suppress minorities and still remain democratic."
+        -Erik von Kuehnelt-Leddihn
+-->
