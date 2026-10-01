@@ -1,4 +1,2 @@
 User-agent: *
 Disallow: /
-Allow: /paycheck-calculator/
-Sitemap: https://offctrl.ai/paycheck-calculator/sitemap.xml
